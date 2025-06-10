@@ -1,0 +1,122 @@
+    /* Estilos generales del body */
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fadc78;
+    }
+
+    /* Estilos del contenedor principal */
+    .container {
+        background-color: rgba(247, 147, 17, 0.781);
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilos del formulario */
+    h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* Grupos de formulario */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Estilos de los campos de entrada */
+    .opciones-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    }
+
+    /* Grupos de formulario */
+    .opciones-horizontal input[type="radio"] {
+    margin-right: 0.3rem;
+    }
+
+    /* Etiquetas de formulario */
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    /* Estilos comunes para inputs, selects y textareas */
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    /* Efecto focus para inputs */
+    input:focus, select:focus, textarea:focus {
+        border-color: #d6ac5d;
+        outline: none;
+    }
+
+    /* Estilo del botón de enviar */
+    button {
+        background-color: #ff7d03;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* Efecto hover del botón */
+    button:hover {
+        background-color: #ff7d03;
+    }
+
+    /* Sección de resultados */
+    .resultado {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #e8f5e8;
+        border-radius: 4px;
+        border-left: 4px solid #af534c;
+        display: none;
+    }
+
+    /* Título de resultados */
+    .resultado h3 {
+        margin-top: 0;
+        color: #fd2a05;
+}
+
+    /* Items individuales de resultados */
+
+    .dato {
+        margin-bottom: 10px;
+        padding: 8px;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    /* Etiquetas en los resultados */
+    .etiqueta {
+        font-weight: bold;
+        color: #88320a;
+    }
+
+    /* Estilo del footer */
+    footer {
+        text-align: center;
+        padding: 0.3rem;
+        font-size: 0.9rem;
+    }
